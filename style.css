@@ -16,8 +16,9 @@ header h1 { margin: 0; }
   border-radius: 6px;
   padding: 20px;
   margin: 0 auto;
-  /* v1.0.0: fixed width */
-  width: 460px;
+  /* v1.0.1: responsive width (login button fix) */
+  width: 100%;
+  max-width: 460px;
 }
 .hidden { display: none; }
 input {
@@ -36,7 +37,7 @@ button {
   cursor: pointer;
 }
 button.secondary { background: #777; }
-#auth-btn { margin-left: 330px; width: 110px; }
+#auth-btn { width: 100%; margin-top: 6px; }
 .row { display: flex; gap: 8px; align-items: center; justify-content: space-between; }
 .msg { min-height: 18px; font-size: 14px; color: #b00; }
 .switch { font-size: 14px; }
