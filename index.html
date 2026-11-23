@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Student Task Manager</h1>
+    <span id="version">v1.0.0</span>
+  </header>
+
+  <!-- Auth section -->
+  <section id="auth" class="card">
+    <h2 id="auth-title">Login</h2>
+    <input id="email" type="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Password (min 6 characters)">
+    <button id="auth-btn">Login</button>
+    <p id="auth-msg" class="msg"></p>
+    <p class="switch">
+      <span id="switch-text">No account?</span>
+      <a href="#" id="switch-link">Sign up</a>
+    </p>
+  </section>
+
+  <!-- Task section -->
+  <section id="tasks" class="card hidden">
+    <div class="row">
+      <h2>My Tasks</h2>
+      <button id="logout-btn" class="secondary">Logout</button>
+    </div>
+    <p id="welcome"></p>
+    <div class="row">
+      <input id="task-input" type="text" placeholder="Enter a new task">
+      <button id="add-btn">Add</button>
+    </div>
+    <p id="task-msg" class="msg"></p>
+    <ul id="task-list"></ul>
+  </section>
+
+  <footer>Software Construction - Lab 10</footer>
+  <script src="app.js"></script>
+</body>
+</html>
