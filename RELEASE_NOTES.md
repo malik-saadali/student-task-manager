@@ -1,5 +1,15 @@
 # Release Notes - Student Task Manager
 
+## Version 1.0.1 (24 November 2026) - Hotfix
+
+### Bug Fixes
+- Fixed: Login button was pushed outside the screen on mobile devices, so users could not tap it. The login card now uses a responsive width and the button takes the full card width.
+
+### Known Issues
+- Data is stored only in the browser, so tasks are not shared across devices.
+
+---
+
 ## Version 1.0.0 (23 November 2026)
 
 ### New Features
